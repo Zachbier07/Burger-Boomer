@@ -1,0 +1,3 @@
+/home/zach/Documents/Burger-Boomer/build/CMakeFiles/application.dir
+/home/zach/Documents/Burger-Boomer/build/CMakeFiles/edit_cache.dir
+/home/zach/Documents/Burger-Boomer/build/CMakeFiles/rebuild_cache.dir

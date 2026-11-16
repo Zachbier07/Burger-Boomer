@@ -1,0 +1,17 @@
+set(CMAKE_HOST_SYSTEM "Linux-7.2.15-arch1-1")
+set(CMAKE_HOST_SYSTEM_NAME "Linux")
+set(CMAKE_HOST_SYSTEM_VERSION "7.2.15-arch1-1")
+set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
+
+set(_CMAKE_INPUT_TOOLCHAIN_FILE [==[/opt/devkitpro/cmake/Wii.cmake]==])
+set(_CMAKE_SYSTEM_TOOLCHAIN_FILE "/opt/devkitpro/cmake/Wii.cmake")
+include("${_CMAKE_SYSTEM_TOOLCHAIN_FILE}")
+
+set(CMAKE_SYSTEM "NintendoWii-1")
+set(CMAKE_SYSTEM_NAME "NintendoWii")
+set(CMAKE_SYSTEM_VERSION "1")
+set(CMAKE_SYSTEM_PROCESSOR "ppc")
+
+set(CMAKE_CROSSCOMPILING "TRUE")
+
+set(CMAKE_SYSTEM_LOADED 1)
